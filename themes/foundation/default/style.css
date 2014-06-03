@@ -461,7 +461,6 @@ p.featured-date, #slider .comments-number {
 
 .dark-body .swipe {
 	border-bottom: 1px solid rgba(0,0,0,.1);
-	-webkit-box-shadow: rgba(255,255,255,.05) 0px 1px 0px;
 	box-shadow: rgba(255,255,255,.05) 0px 1px 0px;
 }
 
@@ -472,7 +471,6 @@ p.featured-date, #slider .comments-number {
 ul.dots {
 	padding-bottom: 5px;
 	position: relative;
-	z-index: 1;
 	margin-right: auto;
 	padding-top: 5px;
 	text-align: center;
@@ -482,10 +480,8 @@ ul.dots {
 ul.dots li {
 	width: 6px;
 	height: 6px;
-	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	background-color: rgba(255,255,255,.25);
-	-webkit-box-shadow: inset rgba(0,0,0,.1) 0px 1px 1px, rgba(255,255,255,.05) 0px 1px 0px;
 	box-shadow: inset rgba(0,0,0,.1) 0px 1px 1px, rgba(255,255,255,.05) 0px 1px 0px;
 	margin-right: 3px;
 	margin-left: 3px;
@@ -493,7 +489,6 @@ ul.dots li {
 }
 
 ul.dots li.active {
-	-webkit-box-shadow: inset rgba(255,255,255,.05) 0px 1px 0px, rgba(255,255,255,.05) 0px 1px 0px;
 	box-shadow: inset rgba(255,255,255,.05) 0px 1px 0px, rgba(255,255,255,.05) 0px 1px 0px;
 }
 
@@ -656,7 +651,6 @@ body.web-app-mode.translucent {
 
 #switch div {
 	border: 1px solid rgba(0,0,0,.2);
-	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-touch-callout: none;
@@ -715,10 +709,8 @@ ul.social-links-wrap {
 
 li .social-footer-badges   {
 	background-color: rgba(255,255,255,.9);
-	-webkit-border-radius: 44px;
 	border-radius: 44px;
 	font-size: 120%;
-	-webkit-box-shadow: inset rgba(255,255,255,.4) 0px 1px 0px;
 	box-shadow: inset rgba(255,255,255,.4) 0px 1px 0px;
 	text-shadow: none;
 	border-style: solid;
@@ -735,7 +727,6 @@ li .social-footer-badges   {
 
 .dark-body .social-footer-badges {
 	background-color: rgba(0,0,0,.3);
-	-webkit-box-shadow: inset rgba(255,255,255,.2) 0px 1px 0px;
 	box-shadow: inset rgba(255,255,255,.2) 0px 1px 0px;
 	border-width: 0;
 }
@@ -754,7 +745,6 @@ p.comment-awaiting-moderation {
 	font-style: italic;
 	background-color: #feeec4;
 	padding: 4px;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
 }
 
@@ -785,7 +775,6 @@ form#commentform input, form#commentform textarea {
 	border: 1px solid rgba(0,0,0,.3);
 	font-size: 100%;
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
 	border-radius: 0;
 	background-color: rgba(0,0,0,.1);
 }
@@ -810,7 +799,6 @@ form#commentform button#submit {
 	color: rgba(0,0,0,.8);
 	padding: 4px 16px;
 	margin: 0;
-	-webkit-border-radius: 0px;
 	border-radius: 0px;
 }
 
@@ -915,16 +903,15 @@ form#commentform button#submit {
 /* @group Login Form */
 
 .wptouch-login-wrap {
-	z-index: 1000;
+	
+	000;
 	font-size: 100%;
 	padding: 20px;
 	display: none;
 	position: absolute;
 	top: 3%;
-	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	width: 75%;
-	-webkit-box-shadow: rgba(0,0,0,.5) 0px 1px 5px;
 	box-shadow: rgba(0,0,0,.5) 0px 1px 5px;
 }
 
@@ -966,7 +953,6 @@ p.login-remember {
 	font-size: 120%;
 	width: 192px;
 	height: 30px;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	padding: 3px;
 	background-color: rgba(255,255,255,.9);
@@ -982,7 +968,6 @@ p.login-remember {
 	width: 200px;
 	font-size: 130%;
 	font-weight: bold;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
  -webkit-appearance: none;
 	padding: 5px;
@@ -993,7 +978,6 @@ p.login-remember {
 }
 
 .wptouch-login-inner input[type="submit"]:active {
-	-webkit-box-shadow: inset rgba(0,0,0,.5) 0px 2px 4px;
 	box-shadow: inset rgba(0,0,0,.5) 0px 2px 4px;
 }
 
@@ -1056,7 +1040,6 @@ p.login-remember {
 	left: 0;
 	right: 0;
 	opacity: 0.95;
-	-webkit-box-shadow: rgba(0,0,0,.3) 0px -2px 4px, inset rgba(255,255,255,.3) 0px 6px 12px;
 	box-shadow: rgba(0,0,0,.3) 0px -2px 4px, inset rgba(255,255,255,.3) 0px 6px 12px;
 	-webkit-user-select: none;
 	color: #fff;
@@ -1078,10 +1061,8 @@ p.login-remember {
 	background-color: rgba(255,255,255,.1);
 	position: absolute;
 	top: 3px;
-	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	border: 1px solid rgba(0,0,0,.2);
-	-webkit-box-shadow: inset rgba(255,255,255,.2) 0px 1px 0px;
 	box-shadow: inset rgba(255,255,255,.2) 0px 1px 0px;
 	text-align: center;
 	padding-top: 3px;
@@ -1120,63 +1101,4 @@ img#wpstats {
 	height: 0px;
 	overflow: hidden
 }
-/* @end */
-
-/* @group WPML */
-
-#wpml-language-chooser-wrap {
-	text-align: center;
-	margin-top: 20px;
-}
-
-#wpml-language-chooser {
-	margin: auto;
-	font-size: 0.9em;
-}
-
-#wpml-language-chooser strong {
-}
-
-#wpml-language-chooser select {
-	font-size: 0.9em;
-}
-
-/* @end */
-
-/* @group Contact Form 7 compatibility */
-	.post form.wpcf7-form {
-		background: transparent;
-	}
-
-	span.wpcf7-form-control-wrap {
-		display: block;
-		max-width: 96%;
-	}
-
-	.wpcf7 input,
-	.wpcf7 textarea {
-		font-size: 100%;
-		padding-left: 5px !important;
-		padding-right: 0;
-		max-width: 100%;
-	}
-
-	.wpcf7 div.wpcf7-response-output {
-		margin: 0;
-		padding: 10px 15px;
-	}
-
-	.wpcf7 div.wpcf7-validation-errors {
-		background: rgba(247, 231, 0, 0.25);
-		line-height: 1.4em;
-	}
-
-	.wpcf7 div.wpcf7-mail-sent-ok {
-		background: #398f14;
-		color: #fff;
-		font-weight: bold;
-		line-height: 1.4em;
-		text-align: center;
-	}
-
 /* @end */
